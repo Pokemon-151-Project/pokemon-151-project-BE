@@ -1,0 +1,133 @@
+{
+  "api": {
+    "apipokemonbackend32523": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "pokemon151project374dca16"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "pokemon151project6c52c7aa"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    },
+    "pokemon151backend": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "nocluelambdafunction"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "auth": {
+    "pokemon151project": {
+      "dependsOn": [],
+      "frontendAuthConfig": {
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyCharacters": [],
+          "passwordPolicyMinLength": 8
+        },
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito",
+      "serviceType": "managed"
+    }
+  },
+  "function": {
+    "nocluelambdafunction": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "pokemon151project374dca16": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "pokemon151project6c52c7aa": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_nocluelambdafunction_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "nocluelambdafunction"
+        }
+      ]
+    },
+    "AMPLIFY_function_nocluelambdafunction_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "nocluelambdafunction"
+        }
+      ]
+    },
+    "AMPLIFY_function_pokemon151project374dca16_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "pokemon151project374dca16"
+        }
+      ]
+    },
+    "AMPLIFY_function_pokemon151project374dca16_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "pokemon151project374dca16"
+        }
+      ]
+    },
+    "AMPLIFY_function_pokemon151project6c52c7aa_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "pokemon151project6c52c7aa"
+        }
+      ]
+    },
+    "AMPLIFY_function_pokemon151project6c52c7aa_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "pokemon151project6c52c7aa"
+        }
+      ]
+    }
+  }
+}
