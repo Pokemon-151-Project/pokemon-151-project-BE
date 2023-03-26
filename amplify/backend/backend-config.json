@@ -1,0 +1,43 @@
+{
+  "api": {
+    "poke151BEmar26": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "pokemon151projectfe9535b112"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "function": {
+    "pokemon151projectfe9535b112": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_pokemon151projectfe9535b112_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "pokemon151projectfe9535b112"
+        }
+      ]
+    },
+    "AMPLIFY_function_pokemon151projectfe9535b112_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "pokemon151projectfe9535b112"
+        }
+      ]
+    }
+  }
+}
