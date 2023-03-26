@@ -11,29 +11,6 @@
       "StackId": "arn:aws:cloudformation:us-east-1:145667575106:stack/amplify-amplifycc2b1b21d1a24-staging-232916/5d1e0310-c909-11ed-974b-0a7344645553",
       "AmplifyAppId": "d35zx28f5rw9sk",
       "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-amplifycc2b1b21d1a24-staging-232916-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
-    },
-    "categories": {
-      "function": {
-        "nocluelambdafunction": {
-          "deploymentBucketName": "amplify-amplifycc2b1b21d1a24-staging-232916-deployment",
-          "s3Key": "amplify-builds/nocluelambdafunction-42416d4d7653596e4741-build.zip"
-        },
-        "pokemon151project374dca16": {
-          "deploymentBucketName": "amplify-amplifycc2b1b21d1a24-staging-232916-deployment",
-          "s3Key": "amplify-builds/pokemon151project374dca16-736b7844726e70543541-build.zip"
-        },
-        "pokemon151project6c52c7aa": {
-          "deploymentBucketName": "amplify-amplifycc2b1b21d1a24-staging-232916-deployment",
-          "s3Key": "amplify-builds/pokemon151project6c52c7aa-657a4f32307a6b557468-build.zip"
-        }
-      },
-      "auth": {
-        "pokemon151project": {}
-      },
-      "api": {
-        "pokemon151backend": {},
-        "apipokemonbackend32523": {}
-      }
     }
   }
 }
