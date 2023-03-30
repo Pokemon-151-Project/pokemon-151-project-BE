@@ -1,0 +1,43 @@
+{
+  "api": {
+    "poke151Mar292023": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "pokemon151projectfe756963cd"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "function": {
+    "pokemon151projectfe756963cd": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_pokemon151projectfe756963cd_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "pokemon151projectfe756963cd"
+        }
+      ]
+    },
+    "AMPLIFY_function_pokemon151projectfe756963cd_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "pokemon151projectfe756963cd"
+        }
+      ]
+    }
+  }
+}

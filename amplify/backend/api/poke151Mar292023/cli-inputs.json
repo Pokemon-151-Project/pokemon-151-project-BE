@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/items": {
+      "name": "/items",
+      "lambdaFunction": "pokemon151projectfe756963cd",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplify7fe461d01c0f4-staging-155858-authRole",
+      "UnauthRoleArn": "arn:aws:iam::145667575106:role/amplify-amplify7fe461d01c0f4-staging-155858-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::145667575106:role/amplify-amplify7fe461d01c0f4-staging-155858-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-amplify7fe461d01c0f4-staging-155858-deployment",
+      "UnauthRoleName": "amplify-amplify7fe461d01c0f4-staging-155858-unauthRole",
+      "StackName": "amplify-amplify7fe461d01c0f4-staging-155858",
+      "StackId": "arn:aws:cloudformation:us-east-1:145667575106:stack/amplify-amplify7fe461d01c0f4-staging-155858/1ed71db0-cbef-11ed-b847-0e38177b5ffd",
+      "AmplifyAppId": "dckyt6m34vq2d"
+    },
+    "categories": {
+      "function": {
+        "pokemon151projectfe756963cd": {
+          "deploymentBucketName": "amplify-amplify7fe461d01c0f4-staging-155858-deployment",
+          "s3Key": "amplify-builds/pokemon151projectfe756963cd-356f6353482b7973366b-build.zip"
+        }
+      },
+      "api": {
+        "poke151Mar292023": {}
+      }
+    }
+  }
+}
